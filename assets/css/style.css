@@ -1,0 +1,83 @@
+
+body{
+    /* background-color: #37a29a; */
+}
+
+.row{
+    margin: 0px;
+}
+
+/* LOGIN */
+.login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 5%;
+}
+
+.login form{
+    background-color: #808080b3;
+    padding: 3% 5%;
+}
+
+#user_log a{
+   color: blue;
+}
+
+#log_out{
+    cursor: pointer;
+}
+
+.register{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 5%;
+}
+
+.register form{
+    background-color: #808080b3;
+    padding: 3% 5%;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background-color: #37a29a ;
+}
+
+/* CONTENT */
+
+.profile-content{
+    width: 100%;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 4%;
+    margin-top: 2rem;
+}
+
+.glossarys_containter{
+    width: 100%;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 6%;
+    margin-top: 2rem;
+}
+
+.card{
+    border: 1px solid rgb(0 0 0 / 48%);
+}
+
+#about_us{
+    padding: 5%;
+}
